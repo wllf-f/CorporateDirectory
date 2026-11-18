@@ -1,0 +1,36 @@
+# ---------- 依赖与构建产物 ----------
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+frontend/dist-ssr/
+backend/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ---------- IDE ----------
+# .idea 里含 HTTP Client 自动保存的接口响应（可能带测试数据），不提交
+.idea/
+backend/.idea/
+backend/*.iml
+*.iml
+
+# ---------- 本地环境与日志 ----------
+*.log
+logs/
+npm-debug.log*
+*.local
+.env
+.env.local
+
+# ---------- 系统文件 ----------
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---------- Office 临时文件 ----------
+~$*
+
+# ---------- 设计说明书 ----------
+# 文档内含真实姓名与学号，默认不提交；
+# 若确实要随仓库提供，删掉下面这一行（或 git add -f）即可
+企业通讯录设计实现说明书.docx
